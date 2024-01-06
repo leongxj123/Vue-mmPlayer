@@ -2,8 +2,8 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
-        mmPlayer 在线音乐播放器
+      <a href="https://yy.2023gpt.top" target="_blank">
+        在线音乐播放器
       </a>
       <img
         v-if="visitorBadge"
