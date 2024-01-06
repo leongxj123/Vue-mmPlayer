@@ -2,9 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://yy.2023gpt.top" target="_blank">
-        在线音乐播放器
-      </a>
+      <a href="https://yy.2023gpt.top" target="_blank">在线音乐播放器</a>
       <img
         v-if="visitorBadge"
         :src="visitorBadge"
