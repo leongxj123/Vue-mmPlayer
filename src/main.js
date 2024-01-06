@@ -38,8 +38,7 @@ router.beforeEach((to, from, next) => {
   if (redirectList.includes(to.path)) {
     next()
   } else {
-    document.title =
-      (to.meta.title && `${to.meta.title} - 在线音乐播放器`) || '在线音乐播放器'
+    document.title = (to.meta.title && `${to.meta.title} - 在线音乐播放器`) || '在线音乐播放器'
     next()
   }
 })
